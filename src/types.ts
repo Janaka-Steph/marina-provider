@@ -81,6 +81,7 @@ interface AssetValue {
 
 export interface Asset {
   assetHash: string;
+  canSubmarineSwap: boolean;
   name: string;
   precision: number;
   ticker: string;
